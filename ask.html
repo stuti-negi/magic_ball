@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Magic 8 ball</title>
+	<link rel="stylesheet" type="text/css" href="ask.css">
+</head>
+<body onload="nam()"  class="back_img1">
+	<div style="text-align: left;">
+	  	 <img src="mi.jpg" class="imge">
+
+	  </div>
+<section  >
+	  
+	 <div> 
+
+		<div><p style="font-size:50px; margin-bottom: 2%;">Hi <span id="person"></span>,</p>
+		</div>
+		<div>
+		<div>
+			<label for="ques" style="font-size:24px;">Ask Your Question:</label>
+			<select id="question" name="question" style="font-size: 20px;margin: 1%;">
+				<option value="0"><---Question----></option>
+				  <option value="1">Will I be selected ?</option>
+				  <option value="2">Will I get the job?</option>
+				  <option value="3">Will she forgive me?</option>
+				  <option value="4">Am I a good player?</option>
+				  <option value="5">Will I be selected in team?</option>
+				  <option value="6">Will I my team win?</option>
+				  <option value="7">Will I get the promotion?</option>
+				  <option value="8">Am I going to win the lotery?</option>
+				  <option value="9">Will be able to got overseas?</option>
+				  <option value="10">Will I get married this year?</option>
+			  
+			</select>
+			</div>
+			<div>
+				<input type="submit" onclick="ans()" value="Answer" class="green_btn">
+			</div>
+		</div>
+		<div id="h" style="visibility: hidden;">
+			<div>
+				<p id="disp" style="font-size: 20px; margin: 1%;"> w</p>
+			</div>
+			<div >
+				<input type="submit" onclick="window.location.reload();" value="Ask Again" class="green_btn">
+				<input type="submit" onclick="window.location='index.html'" value="Restart" class="blue_btn">
+			</div>
+	</div>
+</div>
+</section>
+<script type="text/javascript" src="ask.js"></script>
+</body>
+
+</html>

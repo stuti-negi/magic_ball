@@ -1,0 +1,95 @@
+.back_img
+{
+	background-image: url('main3.jpg');
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+}
+.form_style
+{
+	padding: 17%; 
+	font-family: sans-serif;
+	padding-left: 22%;
+	 text-shadow: 3px 3px black;
+	
+}
+.imge {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation: example 8s infinite linear;
+
+}
+
+@keyframes example {
+  0%   {transform:rotate(360deg); left:0%; top:0%;}
+  50%  { left:90%; top:0%;}
+  100%  { left:0%; top:0%;}
+ 
+}
+
+
+.label_text
+{
+	color: #9E6E97;
+	font-size: 40px;
+	margin: 1%;
+	padding: 6%;
+}
+.input_name
+{
+	height: 30px;margin: 1%;
+	border: 3px solid black;
+	border-color: white;
+	box-shadow: 3px 3px black;
+	outline:3px white;
+	font-size: 27px;
+	padding: 1%;
+	background-color: rgb(255, 255, 255,0);
+	border-radius: 20px;
+	color: white; 
+}
+.ask_button
+{
+	font-size: 20px;margin: 1%;
+	background-color:#9E6E97;
+	border: 3px solid black;
+	border-color: #9E6E97;
+	box-shadow: 3px 3px white;
+	border-radius: 20px;
+	outline:3px #9E6E97;
+	margin-left: 14%;
+	color: white;
+
+}
+.back_img1
+{
+	background-image: url('b3.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	padding-bottom: 8%;
+
+}
+.green_btn
+{
+ font-size: 20px;margin: 1%;
+ background-color: green;
+ border: 4px green;
+ padding:8px; 
+ color: white;
+ border-radius: 10px;
+}
+.blue_btn
+{
+  font-size: 20px;margin: 1%;
+  background-color: blue;
+  border: 4px green;
+  padding:8px;
+  color: white;
+  border-radius: 10px;
+}
